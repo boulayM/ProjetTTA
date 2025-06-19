@@ -1,0 +1,5 @@
+# Privilèges pour `admin`@`%`
+
+GRANT USAGE ON *.* TO `admin`@`%` IDENTIFIED BY PASSWORD '*74FA88C45FAED6B14D6E276F935BEE8F800B803E';
+
+GRANT ALL PRIVILEGES ON `artisans\_r\_a`.* TO `admin`@`%` WITH GRANT OPTION;
