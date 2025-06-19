@@ -4,7 +4,9 @@ Projet Trouve ton Artisan avec la Région Auvergne-Rhône-Alpes
 Contennu de ce dépot:
 
 1- dossier contenant le projet du site en React
+
 1- dossier contenant le projet de l'API
+
 1 - dossier contenant le code SQL pour la création de la base de donnés et de l'utilisateur
 
 Comment installer et lancer le projet
