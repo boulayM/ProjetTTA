@@ -7,7 +7,7 @@ const Accueil = ()=>{
         <header className="mb-5 pb-5">
 
         </header>
-        <main className=" container mt-5  pt-5 me-auto">
+        <main className=" container mt-2  pt-5 me-auto">
             <article>
             <h3 className="titres">Comment trouver mon artisan?</h3>
             <ol className="textes">

@@ -1,5 +1,5 @@
 import  {useState, useEffect} from "react";
-import { Card } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import { Rating } from "react-simple-star-rating";
 
 export default function Atdm() {
@@ -19,8 +19,9 @@ export default function Atdm() {
 return (
 
     <>
-        
-            {artisans.map(artisan => (
+        <Row>
+            {artisans.map(artisan => (        
+                <Col key={artisan.id}>
                 <Card className="mb-3">
                 <Card.Body>
                 <p>Nom: {artisan.nom}</p>
@@ -29,12 +30,8 @@ return (
                 <p>Localisation: {artisan.ville}</p>
                 </Card.Body>
                 </Card>
+                </Col>
             ))}
-            
-            
-        
+        </Row>   
     </>
-
-
-)
-}
+)}
