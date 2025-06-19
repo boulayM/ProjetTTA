@@ -42,8 +42,10 @@ const CardDetails = ({artisans}) => {
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Envoyer
-                        </Button>
+                        </Button><br></br><br></br>
                     </Form>
+                    <p>Notre site internet:</p>
+                    <a href={artisans.site} target="blank">{artisans.site}</a>
                 </Col>
                 </Row>
             </div>
